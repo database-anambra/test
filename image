@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+
+    <style>
+        .round {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            background-color: red;
+        }
+        /* for the flex to work sha */
+        
+        .hiii {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- first page -->
+    <div class="container-fluid" style="background-image: url(./images/home.jpg); height: 500px;">
+
+        <div class="container">
+            <!-- nav-link -->
+            <div class="row bg-dark">
+
+                <div class="col-lg-12 hiii">
+                    <div class="col-lg-9">
+                        <div class="round"></div>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="">link 1</a>
+                        <a href="">link 2</a>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- end of nav link -->
+        </div>
+
+    </div>
+    <!-- end of first page -->
+
+    <!-- second page -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row bg-success">
+                <!--nav links -->
+                <div class="col-lg-12 hiii">
+                    <div class="col-lg-9">
+                        <div class="round"></div>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="">link 1</a>
+                        <a href="">link 2</a>
+
+                    </div>
+                </div>
+            </div>
+            <!-- end of nav link -->
+        </div>
+
+    </div>
+    <div class="container-fluid" style="background-image:url(./images/home.jpg); height:500px;">
+        <div class="container">
+            <!-- slider -->
+            <div class="row">
+
+
+                <div class="col-lg-12">
+                    <!--The whole slider -->
+                </div>
+
+            </div>
+        </div>
+        <!-- end of slider -->
+    </div>
+
+
+    <!-- end of second page -->
+
+    <!-- third page -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row bg-success">
+                <!--nav links -->
+                <div class="col-lg-12 ">
+                    <!-- your text -->
+                </div>
+
+                <div class="col-lg-12">
+                    <p>montain one</p>
+                    <p>montain two</p>
+
+                </div>
+            </div>
+            <!-- end of nav link -->
+        </div>
+
+    </div>
+    <div class="container-fluid" style="background-image:url(./images/home.jpg); height:500px;">
+        <div class="container">
+
+            <div class="row">
+
+
+                <div class="col-lg-12">
+                    <!--inner image -->
+                </div>
+                <!-- your footer -->
+                <footer></footer>
+            </div>
+        </div>
+
+    </div>
+    <!-- end of third page -->
+</body>
+
+</html>
